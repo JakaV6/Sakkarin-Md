@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
-conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *Ownerku Ada yang memanggil anda ehe ehe:V*`, m)
+conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *Ayaang ada yg manggil tuh, mau sewa mungkin:v*`, m)
 
   conn.reply(m.chat, `
 Ngapain lu manggil owner ku dek?

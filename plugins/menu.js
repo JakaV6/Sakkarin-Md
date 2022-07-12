@@ -224,29 +224,29 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + namabot,
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p + command} all` },
-          { title: 'Game', rowId: `${_p + command} game` },
-          { title: 'Rpg', rowId: `${_p + command} rpg` },
-          { title: 'XP', rowId: `${_p + command} xp` },
-          { title: 'Stiker', rowId: `${_p + command} stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p + command} kerangajaib` },
-          { title: 'Quotes', rowId: `${_p + command} quotes` },
-          { title: 'Grup', rowId: `${_p + command} grup` },
-          { title: 'Premium', rowId: `${_p + command} premium` },
-          { title: 'Internet', rowId: `${_p + command} internet` },
-          { title: 'Anonymous', rowId: `${_p + command} anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p + command} nulis` },
-          { title: 'Downloader', rowId: `${_p + command} downloader` },
-          { title: 'Tools', rowId: `${_p + command} tools` },
-          { title: 'Fun', rowId: `${_p + command} fun`},
-          { title: 'Database', rowId: `${_p + command} database` },
-          { title: 'Vote & Absen', rowId: `${_p + command} vote` },
-          { title: "Al-Qur\'an", rowId: `${_p + command} quran` },
-          { title: 'Pengubah Suara', rowId: `${_p + command} audio` },
-          { title: 'Jadi Bot', rowId: `${_p + command} jadibot` },
-          { title: 'Info', rowId: `${_p +command} info` },
-          { title: 'Tanpa Kategori', rowId: `${_p + command} tanpakategori` },
-          { title: 'Owner', rowId: `${_p + command} owner` },
+          { title: '[น่าน] SEMUA PERINTAH', rowId: `${_p + command} all` },
+          { title: '[น่าน] GAME', rowId: `${_p + command} game` },
+          { title: '[น่าน] RPG', rowId: `${_p + command} rpg` },
+          { title: '[น่าน] XP', rowId: `${_p + command} xp` },
+          { title: '[น่าน] STIKER', rowId: `${_p + command} stiker` },
+          { title: '[น่าน] KERANG AJAIB', rowId: `${_p + command} kerangajaib` },
+          { title: '[น่าน] QUOTES', rowId: `${_p + command} quotes` },
+          { title: '[น่าน] GRUO', rowId: `${_p + command} grup` },
+          { title: '[น่าน] PREMIUM', rowId: `${_p + command} premium` },
+          { title: '[น่าน] INTERNET', rowId: `${_p + command} internet` },
+          { title: '[น่าน] ANONYMOUS', rowId: `${_p + command} anonymous` },
+          { title: '[น่าน] NULIS & LOGO', rowId: `${_p + command} nulis` },
+          { title: '[น่าน] DOWLOADER', rowId: `${_p + command} downloader` },
+          { title: '[น่าน] TOOLS', rowId: `${_p + command} tools` },
+          { title: '[น่าน] FUN', rowId: `${_p + command} fun`},
+          { title: '[น่าน] DATABASE', rowId: `${_p + command} database` },
+          { title: '[น่าน] VOTE & ABSEN', rowId: `${_p + command} vote` },
+          { title: "[น่าน] AL QUR\'AN", rowId: `${_p + command} quran` },
+          { title: '[น่าน] PENGUBAH SUARA', rowId: `${_p + command} audio` },
+          { title: '[น่าน] JADI BOT', rowId: `${_p + command} jadibot` },
+          { title: '[น่าน] INFO', rowId: `${_p +command} info` },
+          { title: '[น่าน] TANPA KATEGORI', rowId: `${_p + command} tanpakategori` },
+          { title: '[น่าน] OWNER', rowId: `${_p + command} owner` },
         ]
       }
     ]
@@ -264,17 +264,17 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 • Role       : *${role}*
 • Level      : *${level}*
 
-❏ 𝙏𝙄𝙈𝙀
+❏ Timw
 » Wib : *${time}*
 » Tanggal : *${week} ${weton} ${date}*
 
-❏ 𝙏𝘼𝙃𝙐𝙉 𝘽𝘼𝙍𝙐
+❏ Tahun Baru
 _*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*_
 
-❏ 𝙍𝘼𝙈𝘼𝘿𝘼𝙉
+❏ Ramadhan
 _*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_
 
-❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
+❏ Ulang Tahun Owner
 _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 
 ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
@@ -370,7 +370,7 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Selamat Pagi"
   }
   if (time > 10) {
     res = "Selamat siang"

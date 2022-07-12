@@ -3,7 +3,8 @@ let handler = async (m, { conn, usedPrefix }) => conn.sendButton(m.chat, `
 │ • Telkomsel [08133533848]
 │ • Gopay  [085785694474]
 │ • Dana  [08133533848]
-│ • Follow Ig jg bisa  [https://Instagram.com/nan_sakrin]
+│ • Follow Ig owner juga termasuk donasi
+│   [https://Instagram.com/nan_sakrin]
 ╰────
 ╭─「 *NOTE* 」
 │ > Ingin donasi? Wa.me/66855048169

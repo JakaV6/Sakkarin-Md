@@ -1,25 +1,25 @@
-# [Raxcel-bot MD](https://wa.me/6282140373458)
+# [Sakkarin-Md](https://wa.me/79999029953)
 
 ---
 
 <a href="https://visitor-badge.glitch.me/badge?page_id=Kangsad01/bot-md"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Kangsad01/bot-md"></a>
-<a href="https://github.com/Kangsad01/bot-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kangsad01/bot-md?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Kangsad01/bot-md?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Kangsad01/bot-md?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Kangsad01/bot-md?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/issues"><img title="Issues" src="https://img.shields.io/github/issues/Kangsad01/bot-md?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Kangsad01/bot-md?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Kangsad01/bot-md?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Kangsad01/bot-md/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Kangsad01/bot-md?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kangsad01/bot-md?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Kangsad01/bot-md?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Kangsad01/bot-md?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Kangsad01/bot-md?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/issues"><img title="Issues" src="https://img.shields.io/github/issues/Kangsad01/bot-md?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Kangsad01/bot-md?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Kangsad01/bot-md?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Kangsad01/bot-md?label=PullRequest&color=red&style=flat-square"></a>
 
-## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Fm6gRtvuCDN9abXVlfekAK) 
-**NO BOT**
+## Join Group Bot
+[![TEMPAT TES BOT](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LX22xQnDb0yJijocPMYf2P) 
+**NO SPAM**
 
 
 ## UNTUK PENGGUNA HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/bot-md)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JakaV6/Sakkarin-Md)
 
 ### Instal Buildpack
 * heroku/nodejs
@@ -72,7 +72,7 @@ Choose your repo
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Kangsad01/bot-md
+git clone https://github.com/JakaV6/Sakkarin-Md
 cd bot-md
 npm i
 node .
@@ -89,7 +89,7 @@ $ apt update && upgrade -y
 $ pkg install ffmpeg
 $ pkg install nodejs-lts
 $ pkg install git
-$ git clone https://github.com/Kangsad01/bot-md
+$ git clone https://github.com/JakaV6/Sakkarin-Md
 $ cd bot-md
 $ npm i
 $ node .
@@ -185,6 +185,7 @@ conn.logger.level = 'debug'
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
 
 ###### Contributor
+[![Fokus ID](https://github.com/JakaV6.png?size=100)](https://github.com/JakaV6)
 [![Fokus ID](https://github.com/fokusdotid.png?size=100)](https://github.com/fokusdotid)
 [![Aniq](https://github.com/aniq12.png?size=100)](https://github.com/aniq12)
 [![Rasel Comel](https://github.com/raselcomel.png?size=100)](https://github.com/raselcomel)

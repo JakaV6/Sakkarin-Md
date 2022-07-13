@@ -8,7 +8,7 @@ let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
 ┌─〔 %me 〕
-├ *${ucapan()} %name*
+├ *${ucapan()}*
 │
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
@@ -21,8 +21,8 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
+├ Script: Private🔒
+├ 
 │
 ├ Note :
 ├ *Ⓟ* = Premium
@@ -224,29 +224,29 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + namabot,
         rows: [
-          { title: '[ミ] SEMUA PERINTAH', rowId: `${_p + command} all` },
-          { title: '[ミ] GAME', rowId: `${_p + command} game` },
-          { title: '[ミ] RPG', rowId: `${_p + command} rpg` },
-          { title: '[ミ] XP', rowId: `${_p + command} xp` },
-          { title: '[ミ] STIKER', rowId: `${_p + command} stiker` },
-          { title: '[ミ] KERANG AJAIB', rowId: `${_p + command} kerangajaib` },
-          { title: '[ミ] QUOTES', rowId: `${_p + command} quotes` },
-          { title: '[ミ] GRUO', rowId: `${_p + command} grup` },
-          { title: '[ミ] PREMIUM', rowId: `${_p + command} premium` },
-          { title: '[ミ] INTERNET', rowId: `${_p + command} internet` },
-          { title: '[ミ] ANONYMOUS', rowId: `${_p + command} anonymous` },
-          { title: '[ミ] NULIS & LOGO', rowId: `${_p + command} nulis` },
-          { title: '[ミ] DOWLOADER', rowId: `${_p + command} downloader` },
-          { title: '[ミ] TOOLS', rowId: `${_p + command} tools` },
-          { title: '[ミ] FUN', rowId: `${_p + command} fun`},
-          { title: '[ミ] DATABASE', rowId: `${_p + command} database` },
-          { title: '[ミ] VOTE & ABSEN', rowId: `${_p + command} vote` },
-          { title: "[ミ] AL QUR\'AN", rowId: `${_p + command} quran` },
-          { title: '[ミ] PENGUBAH SUARA', rowId: `${_p + command} audio` },
-          { title: '[ミ] JADI BOT', rowId: `${_p + command} jadibot` },
-          { title: '[ミ] INFO', rowId: `${_p +command} info` },
-          { title: '[ミ] TANPA KATEGORI', rowId: `${_p + command} tanpakategori` },
-          { title: '[ミ] OWNER', rowId: `${_p + command} owner` },
+          { title: '[ミ] SEMUA PERINTAH✨', rowId: `${_p + command} all` },
+          { title: '[ミ] GAME✨', rowId: `${_p + command} game` },
+          { title: '[ミ] RPG✨', rowId: `${_p + command} rpg` },
+          { title: '[ミ] XP✨', rowId: `${_p + command} xp` },
+          { title: '[ミ] STIKER✨', rowId: `${_p + command} stiker` },
+          { title: '[ミ] KERANG AJAIB✨', rowId: `${_p + command} kerangajaib` },
+          { title: '[ミ] QUOTES✨', rowId: `${_p + command} quotes` },
+          { title: '[ミ] GRUP✨', rowId: `${_p + command} grup` },
+          { title: '[ミ] PREMIUM✨', rowId: `${_p + command} premium` },
+          { title: '[ミ] INTERNET✨', rowId: `${_p + command} internet` },
+          { title: '[ミ] ANONYMOUS✨', rowId: `${_p + command} anonymous` },
+          { title: '[ミ] NULIS & LOGO✨', rowId: `${_p + command} nulis` },
+          { title: '[ミ] DOWLOADER✨', rowId: `${_p + command} downloader` },
+          { title: '[ミ] TOOLS✨', rowId: `${_p + command} tools` },
+          { title: '[ミ] FUN✨', rowId: `${_p + command} fun`},
+          { title: '[ミ] DATABASE✨', rowId: `${_p + command} database` },
+          { title: '[ミ] VOTE & ABSEN✨', rowId: `${_p + command} vote` },
+          { title: "[ミ] AL QUR\'AN✨", rowId: `${_p + command} quran` },
+          { title: '[ミ] PENGUBAH SUARA✨', rowId: `${_p + command} audio` },
+          { title: '[ミ] JADI BOT✨', rowId: `${_p + command} jadibot` },
+          { title: '[ミ] INFO✨', rowId: `${_p +command} info` },
+          { title: '[ミ] TANPA KATEGORI✨', rowId: `${_p + command} tanpakategori` },
+          { title: '[ミ] OWNER✨', rowId: `${_p + command} owner` },
         ]
       }
     ]
@@ -256,7 +256,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 • Nama    : *${name}*
 • Limit   : *${limit}*
 • Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}*
-• Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan'}*
+• Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan awokawok'}*
 
 ❏ *S T A T U S   I N F O*
 • Total User : *${rtotalreg} dari ${totalreg}*
@@ -264,7 +264,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 • Role       : *${role}*
 • Level      : *${level}*
 
-❏ Timw
+❏ Time
 » Wib : *${time}*
 » Tanggal : *${week} ${weton} ${date}*
 
@@ -280,7 +280,7 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
       footer: wm,
       title: judul,
-      buttonText: "Klik Disini",
+      buttonText: "Klik Disini Kak",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
@@ -334,15 +334,15 @@ ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3TemplateButtonImg(m.chat, await genProfile(conn, m), text.trim(), wm, `🏅Owner`, `${_p}owner`, `🎖ThanksTo`, `${_p}tqto`, `🎗  Donasi  🎗`, `${_p}donasi`, m)
+    await conn.send3TemplateButtonImg(m.chat, await genProfile(conn, m), text.trim(), wm, `Owner`, `${_p}owner`, `ThanksTo`, `${_p}tqto`, `Donasi dong:v`, `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['m', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(m(enu)?|help|\?)$/i
+handler.command = /^(m|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -370,16 +370,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Tch Pagi² Dah main hp"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Selamat siang, Ttp semangat ya"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "Selamat sore jan lupa mandi:v"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Dh malam nih, turu gih"
   }
   return res
 }

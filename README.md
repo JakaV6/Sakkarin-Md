@@ -2,10 +2,10 @@
 
 ---
 
-<a href="https://visitor-badge.glitch.me/badge?page_id=Kangsad01/bot-md"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Kangsad01/bot-md"></a>
-<a href="https://github.com/JakaV6/Sakkarin-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kangsad01/bot-md?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://visitor-badge.glitch.me/badge?page_id=JakaV6/Sakkarin-Md"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=JakaV6/Sakkarin-Md"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/JakaV6/Sakkarin-Md?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/JakaV6/Sakkarin-Md/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Kangsad01/bot-md?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/JakaV6/Sakkarin-Md/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Kangsad01/bot-md?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/JakaV6/Sakkarin-Md/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/JakaV6/Sakkarin-Md?label=Stars&color=yellow&style=flat-square"></a>
 <a href="https://github.com/JakaV6/Sakkarin-Md/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Kangsad01/bot-md?label=Contributors&color=blue&style=flat-square"></a>
 <a href="https://github.com/JakaV6/Sakkarin-Md/issues"><img title="Issues" src="https://img.shields.io/github/issues/Kangsad01/bot-md?label=Issues&color=success&style=flat-square"></a>
 <a href="https://github.com/JakaV6/Sakkarin-Md/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Kangsad01/bot-md?label=Issues&color=red&style=flat-square"></a>
